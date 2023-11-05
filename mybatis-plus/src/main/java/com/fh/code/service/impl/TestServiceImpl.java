@@ -1,0 +1,15 @@
+package com.fh.code.service.impl;
+
+import com.fh.code.service.TestService;
+
+/**
+ * @author hp
+ * @version 1.0
+ * @date 2023/11/5
+ */
+public class TestServiceImpl implements TestService {
+    @Override
+    public void getName(String code) {
+        System.out.println("生成的代码是"+code);
+    }
+}
