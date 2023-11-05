@@ -11,6 +11,7 @@ public class TestServiceImpl implements TestService {
     @Override
     public void getName(String code) {
         System.out.println("生成的代码是" + code);
+        System.out.println("生成的代码是"+code);
     }
 
     @Override
