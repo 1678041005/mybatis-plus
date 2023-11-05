@@ -20,6 +20,8 @@ public class TestServiceImpl implements TestService {
         System.out.println("汗滴禾下土");
         System.out.println("谁知盘中餐");
         System.out.println("粒粒皆辛苦");
+
+        System.out.println("本地提交之后切换分支");
     }
 
 
