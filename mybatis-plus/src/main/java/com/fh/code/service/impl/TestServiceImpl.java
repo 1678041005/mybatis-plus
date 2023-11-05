@@ -9,10 +9,17 @@ import com.fh.code.service.TestService;
  */
 public class TestServiceImpl implements TestService {
     @Override
+    public void getName(String code) {
+        System.out.println("生成的代码是" + code);
+    }
+
+    @Override
     public void test() {
         System.out.println("锄禾日当午");
         System.out.println("汗滴禾下土");
         System.out.println("谁知盘中餐");
         System.out.println("粒粒皆辛苦");
     }
+
+
 }

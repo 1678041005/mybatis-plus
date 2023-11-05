@@ -7,4 +7,5 @@ package com.fh.code.service;
  */
 public interface TestService {
     void test();
+    void getName(String code);
 }
