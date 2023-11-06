@@ -16,16 +16,16 @@ public class TestServiceImpl implements TestService {
 
     @Override
     public void test() {
-        System.out.println("锄禾日当午");
-        System.out.println("汗滴禾下土");
-        System.out.println("谁知盘中餐");
-        System.out.println("粒粒皆辛苦");
+        System.out.println("锄禾日当午s");
+        System.out.println("汗滴禾下土a");
+        System.out.println("谁知盘中餐s");
+        System.out.println("粒粒皆辛苦a");
 
         System.out.println("本地提交之后切换分支");
     }
 
     private String getNameByCode(String code){
-        String name = "xingm"+code;
+        String name = "xingmsss"+code;
         return name;
     }
 }
