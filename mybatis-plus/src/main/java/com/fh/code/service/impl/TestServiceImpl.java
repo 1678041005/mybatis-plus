@@ -24,5 +24,9 @@ public class TestServiceImpl implements TestService {
         System.out.println("本地提交之后切换分支");
     }
 
+    private String getNameByCode(String code){
+        return code+"三年一班";
+    }
+        
 
 }
